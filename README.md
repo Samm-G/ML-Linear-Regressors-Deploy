@@ -1,27 +1,31 @@
-This Project is a Deployment of the Linear Regression Class 2 Example. 
-Found in E:\Projects\DS_Projects\FullStackDS\ML\Linear-Regression\Learning\LinearRegressionDemo.ipynb
+# Project Description:
+    This Project is a Deployment of the Linear Regression Class 2 Example. 
+    Found in E:\Projects\DS_Projects\FullStackDS\ML\Linear-Regression\Learning\LinearRegressionDemo.ipynb
 
-## APP TECH STACK:
+# APP TECH STACK:
     App Server: Flask
     ML Model: SKLearn Linear Regression.
     Deployment: Local
 
-# Create Conda Env..
+# Setup:
+
+### Create Conda Env..
 ```
 conda create --name ml_LinearRegModel_ML python=3.8 -y
 ```
 
-# Activate Environment.
+### Activate Environment.
 ```
 conda activate ml_LinearRegModel_ML
 ```
 
-# Install Base requirements.txt
+### Install Base requirements.txt
 ```
 pip install -r requirements.txt
 ```
 
-# Remove Environment..
+### Remove Environment..
 ```
 conda remove --name ml_linearRegModel_ML --all -y
 ```
+
