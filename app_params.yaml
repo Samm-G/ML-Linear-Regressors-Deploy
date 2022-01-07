@@ -1,0 +1,4 @@
+# App Server Type:
+
+# 'StreamLit', or 'Flask'
+app_server_type: StreamLit
