@@ -3,6 +3,7 @@ from flask_cors import CORS,cross_origin
 import pickle
 import app as app_main
 
+"""
 app = Flask(__name__)
 
 def start_app():
@@ -44,3 +45,4 @@ def index():
     # return render_template('results.html')
     else:
         return render_template('index.html')
+"""

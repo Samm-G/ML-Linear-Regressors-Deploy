@@ -26,16 +26,16 @@ def get_app_params():
 def predict_models(input_data):
     return prediction.predict_models([input_data])
 
-if __name__ == "__main__":
-    # # initializing a flask app
-    #app.run(host='127.0.0.1', port=8001, debug=True)
-    #app.run(debug=True) # running the app
+# if __name__ == "__main__":
+#     # # initializing a flask app
+#     #app.run(host='127.0.0.1', port=8001, debug=True)
+#     #app.run(debug=True) # running the app
     
-    params = get_app_params()
+#     params = get_app_params()
     
-    if params['app_server_type'] == 'Flask':
-        flask_app.start_app()
-    if params['app_server_type'] == 'StreamLit':
-        os.system('streamlit run streamlit_app.py')
-    pass
+#     if params['app_server_type'] == 'Flask':
+#         flask_app.start_app()
+#     if params['app_server_type'] == 'StreamLit':
+#         os.system('streamlit run streamlit_app.py')
+#     pass
 

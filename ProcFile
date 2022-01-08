@@ -1,2 +1,5 @@
+# For Flask Deployment..
 # web: gunicorn app:app
+
+# For Streamlit Deployment..
 web: sh setup.sh && streamlit run streamlit_app.py
